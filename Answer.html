@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c7c3ae3ac3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Answer.css">
+    <script defer type="module" src="Answer.js"></script>
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <table>
+      <tr>
+        <td width="1200px">
+          <a href="/Home.html"><img width="100" src="/Images/mylogo2.png" alt="logo"></a>
+        </td>
+        <td>
+          <div class="innerContainer2 rightSide">
+            <a href="/Home.html">Home</a>
+            <a href="#">How it works</a>
+            <a href="Login.html"><button id="isLogged" class="btn_header">Log Out</button></a> 
+        </div>
+        </td>
+      </tr>
+      
+    </table>
+    <!-- Ask Question Section -->
+    <h1 class="container__question">Question</h1>
+
+    <table>
+      <tr>
+        <td width="300px">
+          <h5 id="q_title">Title</h5>
+        </td>
+        <td>
+          <p id="q_description">Question Description</p>
+        </td>
+      </tr>
+    </table>
+    <div class="container">
+        <div class="">
+          <hr class="question_hr">
+          <h1 class="community">Answer From The Community</h1>
+
+          <!-- <hr class="question_hr"> -->
+        </div>
+        <div class="questions">
+            <!-- <div class="question__div">
+              <hr class="question_hr">
+              <a class="question__box" href="#">
+                <div class="question">
+                  <span class="user_question">
+                    <img class="avatar" src="/Images/avatar.png" alt="avatar">
+                    <p class="user__name">Abel</p>
+                  </span>
+                    <p class="question__title">question title</p>
+                    <p class="leading__icon">></p>
+                </div>
+              </a>
+            </div> -->
+        </div>   
+        <form class="question_form">
+          <h3>Answer The Question</h3>
+          <a class="questionPage" href="/Home.html">Go to Question page</a>
+          <br>
+          <br>
+          <textarea
+            class="question_input"
+            id="question_desc"
+            placeholder="answer Description..."
+            name="questionDescription"
+          ></textarea>
+          <br>
+          <button class="question_post_btn" type="">
+            Post Your Answer
+          </button>
+        </form>
+     </div>
+     <br>
+    <!-- Footer Section -->
+    <footer class="footer-wrapper">
+        <div class="logo-icon-wrapper">
+            <div class="logo">
+            <img width="100" src="/Images/mylogo2.png" alt="logo">
+            </div>
+            <div class="Icon">
+            <a class="social__icons" href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="social__icons" href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="social__icons" href="#">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            </div>
+        </div>
+        <table>
+          <tr>
+            <td width="200px">
+        <h3 class="title"> Useful Link</h3>
+              
+            </td>
+            <td>
+              <h3 class="title"> Contact Info</h3>
+              
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <a href="#">How it works</a>
+                  <br>
+                <a href="#">Terms of Service</a>
+                  <br>
+                <a href="#">Privacy policy</a>
+            </td>
+            <td>
+                <p>Global Solution Hub</p>
+                <p>support@gsl.com</p>
+                <p>+251-961304325</p>
+            </td>
+          </tr>
+        </table>
+        
+    </footer>
+</body>
+</html>
